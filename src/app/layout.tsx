@@ -1,6 +1,5 @@
 import "@mantine/core/styles.css";
-import { ColorSchemeScript } from "@mantine/core";
-import { MantineProvider } from "@mantine/core";
+import { ColorSchemeScript, MantineProvider, createTheme } from "@mantine/core";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,18 +7,24 @@ export const metadata: Metadata = {
   description: "Next.js + Mantine",
 };
 
+const theme = createTheme({
+  primaryColor: "blue",
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        <ColorSchemeScript />
+        <ColorSchemeScript defaultColorScheme="dark" />
       </head>
       <body>
-        <MantineProvider defaultColorScheme="dark">{children}</MantineProvider>
+        <MantineProvider theme={theme} defaultColorScheme="light">
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );
