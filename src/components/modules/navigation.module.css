@@ -1,0 +1,18 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: #0070f3;
+  cursor: pointer;
+}

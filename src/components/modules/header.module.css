@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--mantine-color-body);
+  border-bottom: 1px solid var(--mantine-color-gray-3);
+}
+
+.title {
+  color: var(--mantine-color-text);
+  margin: 0;
+}
+
+.cartButton {
+  padding: 0.5rem;
+}

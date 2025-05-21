@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tênis Fila Efecto Masculino - Preto+verde",
+      "description": "Tênis Fila Efecto Descubra o Tênis Fila Efecto Masculino, projetado para proporcionar conforto e versatilidade em suas atividades físicas",
+      "price": 189.99,
+      "image": "https://static.netshoes.com.br/produtos/tenis-fila-efecto-masculino/44/I6E-6303-244/I6E-6303-244_zoom1.jpg?ts=1722017498&ims=1088x",
+      "status": "on-sale"
+    },
+    {
+      "id": 2,
+      "name": "Tênis Adidas Duramo Rc - Verde+Preto",
+      "description": "Se desafie a cada KM usando o Tênis Adidas Duramo Rc. Esse tênis de corrida é confeccionado em material de qualidade, o cabedal é",
+      "price": 233.99,
+      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-duramo-rc/60/FB8-8808-260/FB8-8808-260_zoom1.jpg?ts=1735317142&ims=1088x",
+      "status": "new"
+    },
+    {
+      "id": 3,
+      "name": "Protetor Solar La Roche ",
+      "description": "O ANTHELIOS AIRLICIUM FPS80, de La Roche Posay, é um protetor solar antioleosidade com FPS 80, oferecendo cuidado diário",
+      "price": 499.99,
+      "image": "https://static.netshoes.com.br/produtos/protetor-solar-la-roche-posey-anthelios-airlicium-fps80-40g/60/M17-0297-460/M17-0297-460_zoom1.jpg?ts=1670333270&ims=1088x",
+      "status": "on-sale"
+    },
+    {
+      "id": 4,
+      "name": "Tênis Under Armour Slight 3",
+      "description": "O Under Armour CHARGED SLIGHT 3 é o tênis ideal para quem busca conforto e performance em sua corrida. O cabedal confeccionado em gáspea",
+      "price": 359.99,
+      "image": "https://static.netshoes.com.br/produtos/tenis-under-armour-slight-3-unissex-original/14/R5M-1229-114/R5M-1229-114_zoom1.jpg?ts=1747822959&ims=1088x",
+      "status": "new"
+    }
+  ]
+}

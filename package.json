@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "npx json-server server/products.json -p 8000 & next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "npx json-server server/products.json -p 8000 & next start"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
@@ -14,9 +13,12 @@
     "@emotion/server": "^11.11.0",
     "@mantine/core": "^8.0.1",
     "@mantine/hooks": "^8.0.1",
+    "axios": "^1.9.0",
+    "json-server": "^1.0.0-beta.3",
     "next": "15.3.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@types/node": "^20",
